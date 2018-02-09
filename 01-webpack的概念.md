@@ -1,17 +1,17 @@
 ## webpack大版本变化以及主要功能
-> ###v1
+> ### v1
 
 * 编译打包
 * 模块热更新(HMR)
 * 代码分割（require.ensure）
 * 文件处理
 
-> ###v2
+> ### v2
 
 * Tree Shaking (去除未用到的代码)
 * 动态import(import('xxxxx))
 
-> ###v3
+> ### v3
 
 * Scope Hoisting (作用域提升)（打包后的代码减少闭包）
 * Magic Comments(配合动态import使用)（指定动态加载的模块名字）
@@ -24,20 +24,20 @@
 > * 单个或多个
 
 
-> >###Output
+> >### Output
 > 
 > * 打包成的文件(bundle)
 > * 自定义规则（[name] [hash:5] [chunkhash]）
 > * 一个或多个
 > 
-> > ###Loader
+> > ### Loader
 > 
 > * 资源变成js,供webpack处理
 > * 编译相关 （babel-loader, ts-loader）
 > * 样式相关 （style-loader, css-loader, less-loader, postcss-loader）
 > * 文件相关 （file-loader, url-loader）
 > 
-> > ###Plugins
+> > ### Plugins
 > 
 > * 参与打包整个过程
 > * 打包优化和压缩
@@ -59,8 +59,8 @@
 
 ##名词
 
-###Chunk 代码块
+### Chunk 代码块
 
-###Bundle 打包出来的Bundle
+### Bundle 打包出来的Bundle
 
-###Module 模块
+### Module 模块
